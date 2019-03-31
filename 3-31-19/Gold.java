@@ -8,7 +8,7 @@ public class Sticks {
 		int ans = (power(2, n, m) % m) - ((n + 1) % m) - (nCr(n, 2, m) % m);
 		if (ans < 0)
 			ans = (ans + m) % m;
-		System.out.println(ans + " " + nCr(4, 2, m));
+		System.out.println(ans);
 	}
 
 	static int nCrModpDP(int n, int r, int p) {
